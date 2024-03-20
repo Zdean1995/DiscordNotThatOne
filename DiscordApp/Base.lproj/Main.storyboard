@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="ipad10_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DiscordApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="820" height="1180"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUP-ba-84m">
+                                <rect key="frame" x="20" y="944" width="780" height="37"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Get Card"/>
+                                <connections>
+                                    <action selector="getRando:" destination="BYZ-38-t0r" eventType="touchUpInside" id="af0-5Y-TUc"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" showsHorizontalScrollIndicator="NO" contentInsetAdjustmentBehavior="scrollableAxes" translatesAutoresizingMaskIntoConstraints="NO" id="wtG-kE-ryW">
+                                <rect key="frame" x="654" y="128" width="146" height="763"/>
+                                <subviews>
+                                    <stackView autoresizesSubviews="NO" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleAspectFill" ambiguous="YES" preservesSuperviewLayoutMargins="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="cva-Cs-ftm">
+                                        <rect key="frame" x="0.0" y="0.0" width="146" height="763"/>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="cva-Cs-ftm" firstAttribute="leading" secondItem="fIr-nr-Evw" secondAttribute="leading" id="215-se-gbO"/>
+                                    <constraint firstItem="cva-Cs-ftm" firstAttribute="bottom" secondItem="fIr-nr-Evw" secondAttribute="bottom" constant="763" id="3cF-Z7-Cba"/>
+                                    <constraint firstItem="cva-Cs-ftm" firstAttribute="trailing" secondItem="fIr-nr-Evw" secondAttribute="trailing" constant="146" id="T86-xg-4h0"/>
+                                    <constraint firstItem="cva-Cs-ftm" firstAttribute="height" secondItem="fIr-nr-Evw" secondAttribute="height" id="TbB-tI-OO3"/>
+                                    <constraint firstItem="cva-Cs-ftm" firstAttribute="width" secondItem="fIr-nr-Evw" secondAttribute="width" id="bnr-rP-Gul"/>
+                                    <constraint firstItem="cva-Cs-ftm" firstAttribute="top" secondItem="fIr-nr-Evw" secondAttribute="top" id="zkB-Zk-xPV"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="fIr-nr-Evw"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="0Ys-mD-BU2"/>
+                            </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7VG-8N-uaZ">
+                                <rect key="frame" x="20" y="1078" width="780" height="82"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Clear"/>
+                                <connections>
+                                    <action selector="clearCards:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yp2-ZW-OwP"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Zachary's Random Magic Card App for Rin so They can Find Cards to Use With Discord, Lord of Disharmony" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UL-sy-PxI">
+                                <rect key="frame" x="37" y="99.5" width="747" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="question_mark" translatesAutoresizingMaskIntoConstraints="NO" id="lns-c3-T4h">
+                                <rect key="frame" x="37" y="128" width="598" height="763"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="598" id="8jd-ru-HvY"/>
+                                    <constraint firstAttribute="height" constant="763" id="qyr-py-gmy"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="lns-c3-T4h" firstAttribute="top" secondItem="6UL-sy-PxI" secondAttribute="bottom" constant="52" id="1CM-qJ-IBN"/>
+                            <constraint firstItem="yUP-ba-84m" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="37b-Dj-ynb"/>
+                            <constraint firstItem="7VG-8N-uaZ" firstAttribute="leading" secondItem="yUP-ba-84m" secondAttribute="leading" id="7vm-rv-8SM"/>
+                            <constraint firstItem="lns-c3-T4h" firstAttribute="bottom" secondItem="wtG-kE-ryW" secondAttribute="bottom" id="EWX-WC-Ams"/>
+                            <constraint firstItem="wtG-kE-ryW" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="OHm-G9-zd6"/>
+                            <constraint firstItem="7VG-8N-uaZ" firstAttribute="trailing" secondItem="yUP-ba-84m" secondAttribute="trailing" id="Tgq-qN-TMo"/>
+                            <constraint firstItem="yUP-ba-84m" firstAttribute="top" secondItem="wtG-kE-ryW" secondAttribute="bottom" constant="8" id="Xee-tX-DkD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7VG-8N-uaZ" secondAttribute="bottom" constant="89" id="jRK-98-sY5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yUP-ba-84m" secondAttribute="bottom" constant="179" id="jgf-mq-Xdd"/>
+                            <constraint firstItem="7VG-8N-uaZ" firstAttribute="top" secondItem="yUP-ba-84m" secondAttribute="bottom" constant="8" id="kg6-8e-4zk"/>
+                            <constraint firstItem="yUP-ba-84m" firstAttribute="top" secondItem="lns-c3-T4h" secondAttribute="bottom" constant="53" id="mWB-Ce-dfw"/>
+                            <constraint firstItem="lns-c3-T4h" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="104" id="oxW-mm-5R5"/>
+                            <constraint firstItem="lns-c3-T4h" firstAttribute="top" secondItem="wtG-kE-ryW" secondAttribute="top" id="tvN-Lz-RZu"/>
+                            <constraint firstItem="lns-c3-T4h" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="17" id="unU-un-jTq"/>
+                            <constraint firstItem="wtG-kE-ryW" firstAttribute="top" secondItem="6UL-sy-PxI" secondAttribute="bottom" constant="8" id="xU3-rM-IY5"/>
+                            <constraint firstItem="wtG-kE-ryW" firstAttribute="leading" secondItem="lns-c3-T4h" secondAttribute="trailing" constant="19" id="y4w-Cv-kSH"/>
+                            <constraint firstItem="yUP-ba-84m" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.95122" id="yso-SH-bWj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="cardImg" destination="lns-c3-T4h" id="t0n-o3-JU1"/>
+                        <outlet property="oldCards" destination="cva-Cs-ftm" id="SsB-0D-kkf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="75.365853658536579" y="-2.5423728813559325"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="question_mark" width="512" height="665"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
