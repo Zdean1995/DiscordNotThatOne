@@ -14,8 +14,8 @@
             filePath = "DiscordApp/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "getRando(_:)"
             landmarkType = "7">
             <Actions>
@@ -28,7 +28,7 @@
             </Actions>
             <Locations>
                <Location
-                  uuid = "3B3E3885-7B2E-4517-A82B-C5FA152BA285 - 22c24465e1650c1d"
+                  uuid = "3B3E3885-7B2E-4517-A82B-C5FA152BA285 - 22c24465e1650eea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -38,54 +38,54 @@
                   urlString = "file:///Users/zachary/Desktop/DiscordApp/DiscordApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "328">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1556">
                </Location>
                <Location
-                  uuid = "3B3E3885-7B2E-4517-A82B-C5FA152BA285 - 252477a992f45b67"
+                  uuid = "3B3E3885-7B2E-4517-A82B-C5FA152BA285 - 80f7ed896b03f2f4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
                   moduleName = "DiscordApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zachary/Desktop/DiscordApp/DiscordApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "108">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "2140">
                </Location>
                <Location
-                  uuid = "3B3E3885-7B2E-4517-A82B-C5FA152BA285 - 8ffc83132587fd66"
+                  uuid = "3B3E3885-7B2E-4517-A82B-C5FA152BA285 - 6897cc9af4931d92"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) await resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
+                  symbolName = "(4) await resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
                   moduleName = "DiscordApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zachary/Desktop/DiscordApp/DiscordApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "44">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "3B3E3885-7B2E-4517-A82B-C5FA152BA285 - fdba71c03afc9a06"
+                  uuid = "3B3E3885-7B2E-4517-A82B-C5FA152BA285 - aab1a5d3f9883ef2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(8) suspend resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
+                  symbolName = "(9) suspend resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
                   moduleName = "DiscordApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zachary/Desktop/DiscordApp/DiscordApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "68">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "80">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -100,13 +100,13 @@
             filePath = "DiscordApp/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
             landmarkName = "getRando(_:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "49324CD5-D805-4000-8CFD-3C395BB3B2A6 - 22c24465e1650c1d"
+                  uuid = "49324CD5-D805-4000-8CFD-3C395BB3B2A6 - 22c24465e1650eea"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -116,54 +116,54 @@
                   urlString = "file:///Users/zachary/Desktop/DiscordApp/DiscordApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "328">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1556">
                </Location>
                <Location
-                  uuid = "49324CD5-D805-4000-8CFD-3C395BB3B2A6 - 252477a992f45b67"
+                  uuid = "49324CD5-D805-4000-8CFD-3C395BB3B2A6 - 80f7ed896b03f2f4"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
                   moduleName = "DiscordApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zachary/Desktop/DiscordApp/DiscordApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "108">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "2140">
                </Location>
                <Location
-                  uuid = "49324CD5-D805-4000-8CFD-3C395BB3B2A6 - 8ffc83132587fd66"
+                  uuid = "49324CD5-D805-4000-8CFD-3C395BB3B2A6 - 6897cc9af4931d92"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(3) await resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
+                  symbolName = "(4) await resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
                   moduleName = "DiscordApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zachary/Desktop/DiscordApp/DiscordApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "44">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "48">
                </Location>
                <Location
-                  uuid = "49324CD5-D805-4000-8CFD-3C395BB3B2A6 - fdba71c03afc9a06"
+                  uuid = "49324CD5-D805-4000-8CFD-3C395BB3B2A6 - aab1a5d3f9883ef2"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "(8) suspend resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
+                  symbolName = "(9) suspend resume partial function for closure #1 @Sendable () async -&gt; () in DiscordApp.ViewController.getRando(Any) -&gt; ()"
                   moduleName = "DiscordApp"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zachary/Desktop/DiscordApp/DiscordApp/ViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
-                  offsetFromSymbolStart = "68">
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "80">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -178,8 +178,24 @@
             filePath = "DiscordApp/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "getRando(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC2D431C-CDD4-42B7-ADE1-2AD3EEB91829"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiscordApp/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "getRando(_:)"
             landmarkType = "7">
          </BreakpointContent>

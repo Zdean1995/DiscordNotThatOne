@@ -40,6 +40,10 @@ class ScryfallApiHelper {
         
         let card = try decoder.decode(Card.self, from: data)
         
+        if card.type_line.contains("Land") && card.cmc == 0 {
+            return try await fetchRandomCard()
+        }
+        
         return card
     }
 }

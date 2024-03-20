@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var oldCards: UIStackView!
+    @IBOutlet weak var scrolllViewa: UIScrollView!
     @IBOutlet weak var cardImg: UIImageView!
     var cards = [Card]()
     var oldCardViews: [UIImageView] = []
@@ -36,10 +37,12 @@ class ViewController: UIViewController {
                     
                     let (data, _) = try await URLSession.shared.data(from: imgUrl!)
                     
-                    let oldCardImg = UIImage(data: data)
+                    var oldCardImg = UIImage(data: data)
+                    var size = CGSize(width: scrolllViewa.frame.width, height: (scrolllViewa.frame.width*1.4))
                     
-                    let oldCard = UIImageView(image: oldCardImg)
+                    let newCardImg = oldCardImg?.imageWith(newSize: size)
                     
+                    let oldCard = UIImageView(image: newCardImg!)
                     
                     oldCards.addArrangedSubview(oldCard)
                     oldCardViews.append(oldCard)
@@ -62,7 +65,17 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func deleteCard(_ sender: UIImageView) {
+    @objc func deleteCard(_ sender: UIImageView) {
         sender.removeFromSuperview()
+    }
+}
+
+extension UIImage {
+    func imageWith(newSize: CGSize) -> UIImage {
+        let image = UIGraphicsImageRenderer(size: newSize).image { _ in
+            draw(in: CGRect(origin: .zero, size: newSize))
+        }
+        
+        return image.withRenderingMode(renderingMode)
     }
 }

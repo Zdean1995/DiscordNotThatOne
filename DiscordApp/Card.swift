@@ -10,5 +10,7 @@ import Foundation
 class Card: Codable {
     var name: String
     var id: String
+    var type_line: String
+    var cmc: Double
     var image_uris: [String: String]
 }
