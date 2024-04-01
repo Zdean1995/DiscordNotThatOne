@@ -157,8 +157,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xjn-u4-9VR">
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xjn-u4-9VR">
                                 <rect key="frame" x="637" y="95" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="rRn-pa-q7X"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vintage Legal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Fd-d5-EPK">
                                 <rect key="frame" x="40" y="163" width="589" height="49"/>
@@ -178,8 +181,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HO8-gX-2Ec">
+                            <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HO8-gX-2Ec">
                                 <rect key="frame" x="637" y="181" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="ZCC-fe-bZ8"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Legacy Legal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zPU-PL-jfd">
                                 <rect key="frame" x="40" y="249" width="589" height="49"/>
@@ -196,8 +202,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Gb-Yu-0d5">
+                            <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4Gb-Yu-0d5">
                                 <rect key="frame" x="637" y="267" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="6KH-RZ-JfN"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modern Legal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiP-rQ-3EU">
                                 <rect key="frame" x="40" y="335" width="589" height="49"/>
@@ -211,8 +220,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9sC-dM-InP">
+                            <switch opaque="NO" tag="3" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9sC-dM-InP">
                                 <rect key="frame" x="637" y="353" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="6YW-nD-AaJ"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pioneer Legal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JnM-bP-Ezp">
                                 <rect key="frame" x="38" y="421" width="589" height="49"/>
@@ -232,8 +244,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AN7-QP-LxV">
+                            <switch opaque="NO" tag="4" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AN7-QP-LxV">
                                 <rect key="frame" x="635" y="439" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="Pxo-lz-voW"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Standard Legal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szL-Uf-RQE">
                                 <rect key="frame" x="38" y="507" width="589" height="49"/>
@@ -250,8 +265,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MrP-MR-geq">
+                            <switch opaque="NO" tag="5" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="MrP-MR-geq">
                                 <rect key="frame" x="635" y="525" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="e7X-1x-gp6"/>
+                                </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Just the Fun Stuff" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p7R-rH-Mqn">
                                 <rect key="frame" x="38" y="593" width="589" height="49"/>
@@ -265,44 +283,61 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oh7-Jx-jxq">
+                            <switch opaque="NO" tag="6" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oh7-Jx-jxq">
                                 <rect key="frame" x="635" y="611" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="vay-ro-Bn4"/>
+                                </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Vanilla Only" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Alg-Dy-hhf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vanilla Only" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Alg-Dy-hhf">
                                 <rect key="frame" x="38" y="679" width="589" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="LB9-d8-t4q"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="This'll shut 'em up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jp-nZ-bQD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This'll shut 'em up" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jp-nZ-bQD">
                                 <rect key="frame" x="38" y="736" width="589" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="gwM-i2-g55"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lal-kN-P7V">
+                            <switch opaque="NO" tag="7" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Lal-kN-P7V">
                                 <rect key="frame" x="635" y="697" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="AxN-x8-zoD"/>
+                                </connections>
                             </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="True Chaos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnY-Hn-XrJ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="True Chaos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnY-Hn-XrJ">
                                 <rect key="frame" x="38" y="765" width="589" height="49"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="&quot;lol&quot; said the Scorpion, &quot;lmao&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCg-u4-dYN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&quot;lol&quot; said the Scorpion, &quot;lmao&quot;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCg-u4-dYN">
                                 <rect key="frame" x="38" y="822" width="589" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Wr1-vh-yy2">
+                            <switch opaque="NO" tag="8" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wr1-vh-yy2">
                                 <rect key="frame" x="635" y="783" width="51" height="31"/>
+                                <connections>
+                                    <action selector="changePool:" destination="eaU-FW-xZW" eventType="touchUpInside" id="xBf-9C-Phs"/>
+                                </connections>
                             </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hGz-Bp-avR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="MrP-MR-geq" firstAttribute="top" secondItem="AN7-QP-LxV" secondAttribute="bottom" constant="55" id="0Ll-qj-l0e"/>
+                            <constraint firstItem="Alg-Dy-hhf" firstAttribute="top" secondItem="vzG-5s-0et" secondAttribute="bottom" constant="8" id="0Qw-SQ-Jrt"/>
+                            <constraint firstItem="jnY-Hn-XrJ" firstAttribute="top" secondItem="1Jp-nZ-bQD" secondAttribute="bottom" constant="8" id="1NL-1h-TSp"/>
                             <constraint firstItem="p7R-rH-Mqn" firstAttribute="top" secondItem="Imx-C5-gCB" secondAttribute="bottom" constant="8" id="1Q4-5y-ahr"/>
                             <constraint firstItem="p7R-rH-Mqn" firstAttribute="trailing" secondItem="vzG-5s-0et" secondAttribute="trailing" id="1Rj-AI-fQD"/>
                             <constraint firstItem="AN7-QP-LxV" firstAttribute="trailing" secondItem="lFx-NV-R4J" secondAttribute="trailing" id="1Xx-L8-TuT"/>
@@ -345,10 +380,12 @@
                             <constraint firstItem="JnM-bP-Ezp" firstAttribute="leading" secondItem="Lfh-c3-AQ7" secondAttribute="leading" id="RhW-c5-8ao"/>
                             <constraint firstItem="Alg-Dy-hhf" firstAttribute="bottom" secondItem="Lal-kN-P7V" secondAttribute="bottom" id="T3v-Uo-gd9"/>
                             <constraint firstItem="9sC-dM-InP" firstAttribute="top" secondItem="4Gb-Yu-0d5" secondAttribute="bottom" constant="55" id="Ucf-1o-QWM"/>
+                            <constraint firstItem="1Jp-nZ-bQD" firstAttribute="leading" secondItem="jnY-Hn-XrJ" secondAttribute="leading" id="VNT-og-5wX"/>
                             <constraint firstItem="MrP-MR-geq" firstAttribute="leading" secondItem="szL-Uf-RQE" secondAttribute="trailing" constant="8" id="W3S-7E-OXV"/>
                             <constraint firstItem="JnM-bP-Ezp" firstAttribute="trailing" secondItem="Lfh-c3-AQ7" secondAttribute="trailing" id="Xm1-KA-6oj"/>
                             <constraint firstItem="9sC-dM-InP" firstAttribute="leading" secondItem="FiP-rQ-3EU" secondAttribute="trailing" constant="8" id="Yll-D3-gha"/>
                             <constraint firstItem="HO8-gX-2Ec" firstAttribute="leading" secondItem="xjn-u4-9VR" secondAttribute="leading" id="Z6U-rh-odl"/>
+                            <constraint firstItem="Alg-Dy-hhf" firstAttribute="leading" secondItem="vzG-5s-0et" secondAttribute="leading" id="ZNR-gY-hdn"/>
                             <constraint firstItem="5Fd-d5-EPK" firstAttribute="leading" secondItem="v7Q-d2-Jqg" secondAttribute="leading" id="ZyF-eK-asX"/>
                             <constraint firstItem="Imx-C5-gCB" firstAttribute="leading" secondItem="p7R-rH-Mqn" secondAttribute="leading" id="aKN-Kf-40B"/>
                             <constraint firstItem="Wr1-vh-yy2" firstAttribute="leading" secondItem="jnY-Hn-XrJ" secondAttribute="trailing" constant="8" id="bJ5-tD-aSA"/>
@@ -361,6 +398,8 @@
                             <constraint firstItem="HO8-gX-2Ec" firstAttribute="leading" secondItem="5Fd-d5-EPK" secondAttribute="trailing" constant="8" id="mgD-ih-Tzs"/>
                             <constraint firstItem="4Gb-Yu-0d5" firstAttribute="top" secondItem="HO8-gX-2Ec" secondAttribute="bottom" constant="55" id="oJU-fr-MTM"/>
                             <constraint firstItem="zPU-PL-jfd" firstAttribute="trailing" secondItem="z7W-cL-1Tb" secondAttribute="trailing" id="ob6-zR-tK8"/>
+                            <constraint firstItem="Lal-kN-P7V" firstAttribute="leading" secondItem="oh7-Jx-jxq" secondAttribute="leading" id="p1W-fK-foI"/>
+                            <constraint firstItem="Lal-kN-P7V" firstAttribute="leading" secondItem="Wr1-vh-yy2" secondAttribute="leading" id="pUK-JF-vNo"/>
                             <constraint firstItem="5Fd-d5-EPK" firstAttribute="trailing" secondItem="v7Q-d2-Jqg" secondAttribute="trailing" id="pVG-2w-jRl"/>
                             <constraint firstItem="FiP-rQ-3EU" firstAttribute="leading" secondItem="nUf-7k-WqP" secondAttribute="leading" id="qJ2-ba-f1N"/>
                             <constraint firstItem="jnY-Hn-XrJ" firstAttribute="trailing" secondItem="xCg-u4-dYN" secondAttribute="trailing" id="qzH-NT-ljT"/>
@@ -375,11 +414,23 @@
                             <constraint firstItem="JnM-bP-Ezp" firstAttribute="bottom" secondItem="AN7-QP-LxV" secondAttribute="bottom" id="tKG-43-zAd"/>
                             <constraint firstItem="xjn-u4-9VR" firstAttribute="top" secondItem="lFx-NV-R4J" secondAttribute="bottom" constant="26" id="tfW-SO-EWT"/>
                             <constraint firstItem="zPU-PL-jfd" firstAttribute="bottom" secondItem="4Gb-Yu-0d5" secondAttribute="bottom" id="uXP-IF-3Wy"/>
+                            <constraint firstItem="Wr1-vh-yy2" firstAttribute="top" secondItem="Lal-kN-P7V" secondAttribute="bottom" constant="55" id="wo9-W2-yl7"/>
                             <constraint firstItem="4Gb-Yu-0d5" firstAttribute="leading" secondItem="9sC-dM-InP" secondAttribute="leading" id="xHH-Aq-1uT"/>
                             <constraint firstItem="FiP-rQ-3EU" firstAttribute="trailing" secondItem="nUf-7k-WqP" secondAttribute="trailing" id="zKR-by-erd"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="CDO-IU-NaV"/>
+                    <connections>
+                        <outlet property="chaosSwitch" destination="Wr1-vh-yy2" id="4Pa-hR-OcP"/>
+                        <outlet property="commanderSwitch" destination="xjn-u4-9VR" id="9gV-V0-gCV"/>
+                        <outlet property="funnySwitch" destination="oh7-Jx-jxq" id="thp-Wq-nYC"/>
+                        <outlet property="legacySwitch" destination="4Gb-Yu-0d5" id="V4B-yU-LVj"/>
+                        <outlet property="modernSwitch" destination="9sC-dM-InP" id="TVh-Z5-dDi"/>
+                        <outlet property="pioneerSwitch" destination="AN7-QP-LxV" id="kp7-yC-mzV"/>
+                        <outlet property="standardSwitch" destination="MrP-MR-geq" id="mmw-RR-z9N"/>
+                        <outlet property="vanillaSwitch" destination="Lal-kN-P7V" id="LZ5-Zn-wPm"/>
+                        <outlet property="vintageSwitch" destination="HO8-gX-2Ec" id="kLf-Gf-N0l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RQr-Hq-mWa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

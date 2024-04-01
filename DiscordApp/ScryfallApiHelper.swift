@@ -41,6 +41,7 @@ class ScryfallApiHelper {
         
         if (card.type_line.contains("Land") && card.cmc == 0)
             || (card.type_line.contains("Contraption"))
+            || (card.type_line.contains("Attraction"))
             || (card.layout.contains("meld"))
             || (card.layout.contains("token")) {
             return try await fetchRandomCard()

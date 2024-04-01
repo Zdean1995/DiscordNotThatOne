@@ -13,4 +13,9 @@ enum PoolType: String{
     case legacy = "https://api.scryfall.com/cards/random?q=f:legacy"
     case modern = "https://api.scryfall.com/cards/random?q=f:modern"
     case pioneer = "https://api.scryfall.com/cards/random?q=f:pioneer"
+    case standard = "https://api.scryfall.com/cards/random?q=f:standard"
+    case vanilla = "https://api.scryfall.com/cards/random?q=is:vanilla"
+    case funny = "https://api.scryfall.com/cards/random?q=is:funny"
+    case chaos = "https://api.scryfall.com/cards/random"
+    
 }
