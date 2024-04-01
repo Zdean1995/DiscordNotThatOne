@@ -12,5 +12,11 @@ class Card: Codable {
     var id: String
     var type_line: String
     var cmc: Double
+    var layout: String
+    var image_uris: [String: String]?
+    var card_faces: [Card_Face]?
+}
+
+class Card_Face: Codable{
     var image_uris: [String: String]
 }

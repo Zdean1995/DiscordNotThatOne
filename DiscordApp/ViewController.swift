@@ -15,9 +15,16 @@ class ViewController: UIViewController {
     var cards = [Card]()
     var oldCardViews: [UIImageView] = []
     var newCardGotten = true
+    var isCard = false
+    var size = CGSize()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.\
+        size = CGSize(width: scrolllViewa.frame.width, height: (scrolllViewa.frame.width*1.4))
+        if UserDefaults.standard.string(forKey: "pool") == nil
+        {
+            UserDefaults.standard.set(PoolType.commander.rawValue, forKey: "pool")
+        }
     }
     
     @IBAction func clearCards(_ sender: Any) {
@@ -29,38 +36,51 @@ class ViewController: UIViewController {
         cardImg.image = UIImage(named: "question_mark")
     }
     
+    @IBAction func discardCard(_ sender: Any) {
+        cardImg.image = UIImage(named: "question_mark")
+        isCard = false
+    }
+    
     @IBAction func getRando(_ sender: Any) {
-        Task {
-            do{
-                if !cards.isEmpty && newCardGotten {
-                    let imgUrl = URL(string: (cards.last!.image_uris["small"])!)
+        if newCardGotten {
+            Task {
+                do{
+                    newCardGotten = false
+                    if !cards.isEmpty && isCard {
+                        let imgUrl = URL(string: (cards.last?.image_uris?["normal"]! ?? cards.last?.card_faces!.first!.image_uris["normal"])!)
+                        
+                        let (data, _) = try await URLSession.shared.data(from: imgUrl!)
+                        
+                        let oldCardImg = UIImage(data: data)
+                        
+                        let newCardImg = oldCardImg?.imageWith(newSize: size)
+                        
+                        let oldCard = UIImageView(image: newCardImg!)
+                        oldCardViews.append(oldCard)
+                        
+                        for view in oldCardViews{
+                            oldCards.removeArrangedSubview(view)
+                        }
+                        
+                        for i in (1...oldCardViews.count).reversed() {
+                            oldCards.addArrangedSubview(oldCardViews[i-1])
+                        }
+                        
+                    }
+                    let card = try await
+                    ScryfallApiHelper.fetchRandomCard()
+                    
+                    let imgUrl = URL(string: (card.image_uris?["normal"]! ?? card.card_faces!.first!.image_uris["normal"])!)
                     
                     let (data, _) = try await URLSession.shared.data(from: imgUrl!)
                     
-                    var oldCardImg = UIImage(data: data)
-                    var size = CGSize(width: scrolllViewa.frame.width, height: (scrolllViewa.frame.width*1.4))
-                    
-                    let newCardImg = oldCardImg?.imageWith(newSize: size)
-                    
-                    let oldCard = UIImageView(image: newCardImg!)
-                    
-                    oldCards.addArrangedSubview(oldCard)
-                    oldCardViews.append(oldCard)
-                    newCardGotten = false
+                    cardImg.image = UIImage(data: data)
+                    cards.append(card)
+                    newCardGotten = true
+                    isCard = true
+                } catch {
+                    preconditionFailure("Error: program failed with error \(error)")
                 }
-                let card = try await
-                ScryfallApiHelper.fetchRandomCard()
-                
-                print(card.name)
-                let imgUrl = URL(string: card.image_uris["normal"]!)
-                
-                let (data, _) = try await URLSession.shared.data(from: imgUrl!)
-                
-                cardImg.image = UIImage(data: data)
-                cards.append(card)
-                newCardGotten = true
-            } catch {
-                preconditionFailure("Error: program failed with error \(error)")
             }
         }
     }

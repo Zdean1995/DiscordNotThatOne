@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62A51A52BBB23CF007F155C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A51A42BBB23CF007F155C /* SettingsViewController.swift */; };
+		B62A51A72BBB2A62007F155C /* PoolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62A51A62BBB2A62007F155C /* PoolType.swift */; };
 		B6DD06272BAA1923000073A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD06262BAA1923000073A3 /* AppDelegate.swift */; };
 		B6DD06292BAA1923000073A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD06282BAA1923000073A3 /* SceneDelegate.swift */; };
 		B6DD062B2BAA1923000073A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DD062A2BAA1923000073A3 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B62A51A42BBB23CF007F155C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B62A51A62BBB2A62007F155C /* PoolType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoolType.swift; sourceTree = "<group>"; };
 		B6DD06232BAA1923000073A3 /* DiscordApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiscordApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DD06262BAA1923000073A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6DD06282BAA1923000073A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +112,7 @@
 				B6DD06262BAA1923000073A3 /* AppDelegate.swift */,
 				B6DD06282BAA1923000073A3 /* SceneDelegate.swift */,
 				B6DD062A2BAA1923000073A3 /* ViewController.swift */,
+				B62A51A42BBB23CF007F155C /* SettingsViewController.swift */,
 				B6DD062C2BAA1923000073A3 /* Main.storyboard */,
 				B6DD06322BAA1924000073A3 /* Assets.xcassets */,
 				B6DD06342BAA1924000073A3 /* LaunchScreen.storyboard */,
@@ -115,6 +120,7 @@
 				B6DD062F2BAA1923000073A3 /* DiscordApp.xcdatamodeld */,
 				B6DD06592BAA1973000073A3 /* ScryfallApiHelper.swift */,
 				B6DD065B2BAA19B0000073A3 /* Card.swift */,
+				B62A51A62BBB2A62007F155C /* PoolType.swift */,
 			);
 			path = DiscordApp;
 			sourceTree = "<group>";
@@ -269,8 +275,10 @@
 			files = (
 				B6DD06312BAA1923000073A3 /* DiscordApp.xcdatamodeld in Sources */,
 				B6DD065C2BAA19B0000073A3 /* Card.swift in Sources */,
+				B62A51A52BBB23CF007F155C /* SettingsViewController.swift in Sources */,
 				B6DD062B2BAA1923000073A3 /* ViewController.swift in Sources */,
 				B6DD065A2BAA1973000073A3 /* ScryfallApiHelper.swift in Sources */,
+				B62A51A72BBB2A62007F155C /* PoolType.swift in Sources */,
 				B6DD06272BAA1923000073A3 /* AppDelegate.swift in Sources */,
 				B6DD06292BAA1923000073A3 /* SceneDelegate.swift in Sources */,
 			);
@@ -458,12 +466,12 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = auchtermuchty.DiscordApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -488,12 +496,12 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = auchtermuchty.DiscordApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
